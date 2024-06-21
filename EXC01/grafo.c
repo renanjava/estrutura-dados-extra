@@ -35,5 +35,6 @@ void imprimir(Grafo grafo){
 	 	for(j = 0; j < grafo.qtdVertices; j++)
 	 		printf("%i ",grafo.matrizAdjacencias[i][j]);
 		 printf("\n");
-	 }	
+	 }
+	printf("\n\n");	
 }
